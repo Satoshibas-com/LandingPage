@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Networks from "./components/Networks";
 import Supporters from "./components/Supporters";
-import GetStarted from "./components/GetStarted";
 
 const StyledApp = styled.div`
   width: 100%;
@@ -25,7 +24,6 @@ const App = () => {
       <Performance />
       <Supporters />
       <Networks />
-      <GetStarted />
       <Footer />
     </StyledApp>
   );
