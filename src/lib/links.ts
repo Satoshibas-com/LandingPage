@@ -1,4 +1,4 @@
-export const DOCS_LINK = "https://docs.akula.app/";
+export const DOCS_LINK = "https://t.me/satoshibas";
 export const GITHUB_LINK = "https://github.com/akula-bft/akula";
 export const TWITTER_LINK = "https://twitter.com/AkulaApp";
 export const DOCKER_LINK =
