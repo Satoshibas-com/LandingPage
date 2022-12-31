@@ -5,6 +5,7 @@ import gnosis from "../assets/supporters/gnosis.svg";
 import stateful from "../assets/supporters/stateful.svg";
 import binance from "../assets/supporters/binance.svg";
 import inch from "../assets/supporters/1inch.svg";
+import shibainu from "../assets/supporters/shibainu.png";
 
 interface ProtocolType {
   logo: string;
@@ -24,9 +25,9 @@ const protocols: ProtocolType[] = [
     link: "https://stateful.mirror.xyz",
   },
   {
-    logo: binance,
-    name: "Binance",
-    link: "https://binance.com",
+    logo: shibainu,
+    name: "ShibaInu",
+    link: "https://shibatoken.com/",
   },
   {
     logo: inch,
@@ -125,10 +126,10 @@ const Supporters = () => {
     <Section highlight noSpacing id="supported-by" header="Supporters">
       <StyledSupporters>
         <Description>
-          Work on Akula is made possible by our amazing supporters. If you would
+          Work on SatoShibas is made possible by our amazing supporters. If you would
           like to sponsor, check out our{" "}
-          <Link href="https://gitcoin.co/grants/5933/akula" target="_blank">
-            Gitcoin grant page
+          <Link href="https://t.me/satoshibas" target="_blank">
+            SatoShibas Telegram.
           </Link>
           .
         </Description>
