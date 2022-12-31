@@ -12,14 +12,6 @@ const terminalContent: string[] = [
   "> INFO Sell Tax:",
   "> INFO Contract creation time: ",
   "> INFO Contract on EtherScan: ",
-  "> INFO Starting discv4 at port 30303",
-  "> INFO RLPx node listening at 0.0.0.0:30303",
-  "> INFO Sentry gRPC server starting on 127.0.0.1:8000",
-  "> INFO Running staged sync",
-  "> INFO { 1/16 Headers }: RUNNING from genesis",
-  "> INFO { 1/16 Headers }: Awaiting chain tip from external consensus engine...",
-  "> INFO { 1/16 Headers }: Received chain tip hash: 0x8884…87ff, starting_download",
-  "> INFO { 1/16 Headers }: Requesting 1024 headers ending at the tip/0x8884277ed8b7e05724d93aba5fea39adc35759885808ab1001ec91b0d60087ff",
 ];
 
 const StyledHero = styled.div`
