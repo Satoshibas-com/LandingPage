@@ -12,20 +12,8 @@ const networks: NetworkType[] = [
     color: "#2AB5AF",
   },
   {
-    name: "Sepolia",
-    color: "#CFB5F0",
-  },
-  {
-    name: "Goerli",
-    color: "#2E99F2",
-  },
-  {
-    name: "Ropsten",
+    name: "ShibaInu",
     color: "#FF488D",
-  },
-  {
-    name: "Rinkeby",
-    color: "#F6C441",
   },
   {
     name: "+ Custom",
