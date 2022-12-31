@@ -87,7 +87,7 @@ const TerminalSection = styled.div`
 
 const Performance = () => {
   return (
-    <Section id="performance" header="Performance">
+    <Section id="performance" header="Road Map">
       <StyledPerformance>
         <DescriptionSection>
           <Description>
