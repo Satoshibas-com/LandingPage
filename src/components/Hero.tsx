@@ -12,6 +12,14 @@ const terminalContent: string[] = [
   "> INFO Sell Tax:",
   "> INFO Contract creation time: ",
   "> INFO Contract on EtherScan: ",
+  "",
+  "> INFO Loading...",
+  "",
+  "> INFO { Creating SatoShibas DAO }: Fetching Information...",
+  "> INFO { Creating SatoShibas DAO }: In Progress...",
+  "",
+  "> INFO { Creating SatoShibas Nodes }: Fetching Information...",
+  "> INFO { Creating SatoShibas Nodes }: First Batch Offering - Coming Soon",
 ];
 
 const StyledHero = styled.div`
