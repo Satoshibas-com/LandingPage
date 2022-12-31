@@ -4,14 +4,14 @@ import Header from "./Header";
 import Terminal from "./Terminal";
 
 const terminalContent: string[] = [
-  "> INFO Starting Akula (akula/v0.1.0-master-943f1ec-2022-11-12/aarch64-apple-darwin/rustc1.65.0)",
+  "> INFO Contract Address: ",
   "> INFO Current network: Ethereum",
-  "> INFO Starting gRPC server on 127.0.0.1:7545",
-  "> INFO JSONRPC server listening on 127.0.0.1:8545",
-  "> INFO Loaded node key: c378f991548b94e209ec141e3ed2c20176bb96510d206192cc5e75adbe5316ce",
-  "> INFO Starting Ethereum P2P node",
-  "> INFO Node ID: 4e6ce35c38dc3f7403e17824a2ea9de8b7eb3418a220c504bec3906787fedfcfaaedb210263415f2ec548e6bbf22649c31d584ad857fa07bb0ac693cf2f17284",
-  "> INFO Starting DNS discovery fetch from all.mainnet.ethdisco.net",
+  "> INFO Token Supply: ",
+  "> INFO Holders: ",
+  "> INFO Buy Tax:",
+  "> INFO Sell Tax:",
+  "> INFO Contract creation time: ",
+  "> INFO Contract on EtherScan: ",
   "> INFO Starting discv4 at port 30303",
   "> INFO RLPx node listening at 0.0.0.0:30303",
   "> INFO Sentry gRPC server starting on 127.0.0.1:8000",
@@ -178,14 +178,14 @@ const Hero = () => {
       </Gradients>
       <Header />
       <HeroText>
-        The World's <GradientText>Fastest </GradientText> Ethereum archive node
+        The World's <GradientText>First </GradientText> ShibaInu BlockChain Token
       </HeroText>
       <HeroSubText>
         Comes with faster sync speeds, crash resilience and a historical state
         API
       </HeroSubText>
       <Button href={DOCS_LINK} target="_blank">
-        View the docs →
+        Join AMM DEX Pre-allocation →
       </Button>
       <TerminalContainer>
         <Terminal code={terminalContent} />
