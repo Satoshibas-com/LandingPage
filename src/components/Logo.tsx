@@ -16,7 +16,7 @@ const StyledLogo = styled.a`
 `;
 
 const Logo = () => {
-  return <StyledLogo href="/">Akula</StyledLogo>;
+  return <StyledLogo href="/">SatoShibas</StyledLogo>;
 };
 
 export default Logo;
