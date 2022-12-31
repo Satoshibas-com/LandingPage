@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import FooterLink from "./FooterLink";
 import Logo from "./Logo";
-import Socials from "./Socials";
 
 const StyledFooter = styled.div`
   position: relative;
@@ -28,7 +27,6 @@ const Footer = () => {
     <StyledFooter>
       <Logo />
       <FooterLink />
-      <Socials />
     </StyledFooter>
   );
 };
