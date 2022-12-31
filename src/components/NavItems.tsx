@@ -12,7 +12,7 @@ const navItems: NavItemType[] = [
     component: "benefits",
   },
   {
-    name: "Performance",
+    name: "Road Map",
     component: "performance",
   },
   {
