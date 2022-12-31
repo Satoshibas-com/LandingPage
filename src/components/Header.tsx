@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Logo from "./Logo";
 import NavItems from "./NavItems";
-import Socials from "./Socials";
 
 const StyledHeader = styled.div`
   position: relative;
@@ -17,7 +16,6 @@ const Header = () => {
     <StyledHeader>
       <Logo />
       <NavItems />
-      <Socials />
     </StyledHeader>
   );
 };
