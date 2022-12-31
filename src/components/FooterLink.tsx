@@ -21,7 +21,7 @@ const StyledFooterLink = styled.a`
 const FooterLink = () => {
   return (
     <StyledFooterLink href={DOCS_LINK} target="_blank">
-      View the docs →
+      Join our Telegram →
     </StyledFooterLink>
   );
 };
