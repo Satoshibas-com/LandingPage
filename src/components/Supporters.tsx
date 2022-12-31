@@ -3,7 +3,6 @@ import Section from "./Section";
 
 import gnosis from "../assets/supporters/gnosis.svg";
 import stateful from "../assets/supporters/stateful.svg";
-import binance from "../assets/supporters/binance.svg";
 import inch from "../assets/supporters/1inch.svg";
 import shibainu from "../assets/supporters/shibainu.png";
 
